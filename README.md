@@ -33,18 +33,18 @@ cd BNS-Legal-QA
 
 
 
-Create a virtual environment
-
+**Create a virtual environment
+**
 python -m venv venv
 source venv/bin/activate  # Linux / macOS
 venv\Scripts\activate     # Windows
 
-
-Install dependencies
+**
+Install dependencies**
 
 pip install -r requirements.txt
 
-Usage
+**Usage**
 streamlit run app.py
 
 
@@ -58,7 +58,7 @@ Click Regenerate Answer if you want an alternative response.
 
 Expand Q&A History to see past questions and answers.
 
-Requirements
+**Requirements**
 
 Python 3.10+
 
@@ -97,7 +97,7 @@ ollama
 
 ---
 
-✅ **Additional Notes for GitHub:**
+**✅ **Additional Notes for GitHub:****
 
 1. **Do not commit large FAISS index and embeddings** unless necessary; they can be regenerated. You can add them to `.gitignore`.
 2. Include `.gitignore`:
